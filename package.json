@@ -26,5 +26,6 @@
     "prepublishOnly": "yarn build",
     "test": "jest",
     "watch": "jest --watch"
-  }
+  },
+  "keywords": []
 }
