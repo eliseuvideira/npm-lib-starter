@@ -1,11 +1,17 @@
 {
   "name": "npm-lib-starter",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": "git@github.com:eliseuvideira/npm-lib-starter.git",
   "author": "Eliseu Videira <eliseuvideira1@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "lib/**/*"
+  ],
   "devDependencies": {
     "typescript": "^4.2.4"
   },
