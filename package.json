@@ -1,0 +1,8 @@
+{
+  "name": "npm-lib-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:eliseuvideira/npm-lib-starter.git",
+  "author": "Eliseu Videira <eliseuvideira1@gmail.com>",
+  "license": "MIT"
+}
