@@ -29,8 +29,8 @@
   "scripts": {
     "build": "tsc",
     "coverage": "jest --coverage && xdg-open coverage/lcov-report/index.html &> /dev/null",
-    "format": "prettier --write 'src/**/*.ts'",
-    "lint": "eslint 'src/**/*' --ext ts",
+    "format": "prettier --write 'src/**/*'",
+    "lint": "eslint --max-warnings=0 'src/**/*'",
     "prepare": "husky install",
     "prepublishOnly": "yarn build",
     "test": "jest",
